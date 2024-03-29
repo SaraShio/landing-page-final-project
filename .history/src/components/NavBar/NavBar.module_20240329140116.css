@@ -1,0 +1,47 @@
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.logo,
+.links {
+  /* Assigning flex basis and allowing to grow and shrink appropriately */
+  flex: 1;
+}
+
+.logo {
+  /* Align the logo to the left */
+  flex: 0 0 auto; /* Do not grow or shrink, use auto basis */
+}
+
+.links {
+  /* Align the links to the right */
+  display: flex;
+  justify-content: flex-end; /* This pushes your links to the right */
+}
+
+.links a {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin-right: 2rem; /* If you want space between buttons, keep this margin */
+  background-color: var(--light-purple);
+  color: var(--white-purple);
+  text-decoration: none;
+  border-radius: 1rem;
+  border: 3px solid var(--light-purple);
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.links a:last-child {
+  margin-right: 0; /* This ensures that there's no margin on the right side of the last link */
+}
+
+.links a:hover {
+  background-color: var(--white-purple);
+  color: var(--light-purple);
+  border: 3px solid var(--light-purple);
+  transform: translateY(-2px);
+}
