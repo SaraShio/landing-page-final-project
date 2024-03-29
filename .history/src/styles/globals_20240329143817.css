@@ -11,19 +11,12 @@
   --grey-purple: #E6E6E6; 
   --white-purple: #fbf7ff;
   --black-purple: #333;
-  --dark-grey: #484848;
-
-
+ 
   --yellow: #f1c40f;
-  --light-yellow: #fcf3cf;
   --orange: #f39c12; 
   --gold: #f7dc6f; 
-
-  --mint-green: #48c9b0;
-  --forest-green: #27ae60; 
-  --light-pink: #ffcad4; 
-  --med-pink: #de8292; 
-  --deep-pink: #ff69b4;
+  --light-yellow: #fcf3cf;
+  --dark-grey: #484848;
 
 }
 
@@ -31,9 +24,7 @@ body {
   background-color: var(--lavender);
   color: var(--black-purple);
   font-family: 'DM Sans', sans-serif;
-
 }
-
 
 a {
   color: var(--deep-purple);

@@ -1,0 +1,28 @@
+/* Ensure the html and body tags are at least 100% of the viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Use flexbox on the main wrapper to push the footer down */
+/* Assuming the main wrapper is a direct child of body and contains all your content */
+.main_wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Your existing styles */
+.footer_container {
+  padding: 1rem 0;
+  background-color: var(--yellow); /* Using a variable for the yellow color */
+  color: var(--black-purple); 
+  text-align: center;
+  border-top: 3px solid var(--light-purple);
+  margin-top: auto; /* This will push the footer to the bottom */
+}
+
+/* Ensure your content wrapper is flex-grow: 1 to fill the space */
+.content {
+  flex-grow: 1;
+}

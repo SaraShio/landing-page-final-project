@@ -41,7 +41,8 @@ export default function Home() {
 
       </ParallaxProvider>
 
-      <Footer/>
     </main>
+          <Footer/>
+
   );
 }

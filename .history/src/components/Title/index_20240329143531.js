@@ -43,7 +43,7 @@ export function Title() {
                     </animated.div>
                     <div className={styles.sub_title}>UI + UX Designer and Frontend Web Developer</div>
                     <div className={styles.slogan}>Bridging Digital Design and Development</div>
-                    <div className={styles.thanks}>Thanks for checking out my portfolio!</div>
+                    <div className={styles.slogan}>Bridging Digital Design and Development</div>
                     <div className={styles.social_links}>
                         <a href='https://www.linkedin.com/in/sara-shiojima-ali/' target="_blank" rel="noopener noreferrer">Let's Connect on LinkedIn</a>
                         <a href='https://github.com/SaraShio' target="_blank" rel="noopener noreferrer">Check Out My GitHub</a>

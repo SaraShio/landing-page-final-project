@@ -11,19 +11,11 @@
   --grey-purple: #E6E6E6; 
   --white-purple: #fbf7ff;
   --black-purple: #333;
+  --warm-yellow: #f1c40f; /* Complementary for deep purple */
+  --soft-orange: #f39c12; /* Complementary for light purple */
+  --pale-gold: #f7dc6f; /* A lighter complementary for a softer contrast */
+  --light-yellow: #fcf3cf; /* Very light yellow for backgrounds */
   --dark-grey: #484848;
-
-
-  --yellow: #f1c40f;
-  --light-yellow: #fcf3cf;
-  --orange: #f39c12; 
-  --gold: #f7dc6f; 
-
-  --mint-green: #48c9b0;
-  --forest-green: #27ae60; 
-  --light-pink: #ffcad4; 
-  --med-pink: #de8292; 
-  --deep-pink: #ff69b4;
 
 }
 
@@ -31,9 +23,7 @@ body {
   background-color: var(--lavender);
   color: var(--black-purple);
   font-family: 'DM Sans', sans-serif;
-
 }
-
 
 a {
   color: var(--deep-purple);

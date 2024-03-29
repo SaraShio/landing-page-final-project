@@ -1,0 +1,15 @@
+.footer_container {
+    width: 100vw;
+    padding: 1rem 0;
+    background-color: var(--light-yellow); 
+    color: var(--black-purple); 
+    text-align: center;
+    border-top: 6px solid var(--gold); /* A subtle top border */
+  }
+  
+  .footer_content p {
+    margin: 0.5rem 0; /* A little space between lines */
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

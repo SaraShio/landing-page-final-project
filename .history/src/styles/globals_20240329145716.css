@@ -31,9 +31,9 @@ body {
   background-color: var(--lavender);
   color: var(--black-purple);
   font-family: 'DM Sans', sans-serif;
-
+  height: 100%;
+  margin: 0;
 }
-
 
 a {
   color: var(--deep-purple);

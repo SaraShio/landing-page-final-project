@@ -14,7 +14,7 @@
   }
 
 .title {
-    color: var(--med-pink);
+    color: rgb(255, 155, 155);
     text-align: left;
     font-size: 4.25rem;
     margin-bottom: 1rem;
@@ -28,18 +28,13 @@
 }
 
 .slogan{
-    color: var(--deep-purple);
+    color: rgb(35, 147, 121);
     text-align: left;
     font-size: 1.5rem;
     margin-bottom: 2rem;    
 }
 
-.thanks{
-  color: var(--mint-green);
-  text-align: left;
-  font-size: 1.5rem;
-  margin-bottom: 2rem;  
-}
+.thanks
 
 .social_links a {
     display: inline-block;

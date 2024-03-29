@@ -1,0 +1,14 @@
+.footer_container {
+    width: 100vw;
+    background-color: var(--lavender); /* Using your color variables */
+    color: var(--black-purple); /* Adjust if necessary for better contrast */
+    text-align: center;
+    border-top: 3px solid var(--light-purple); /* A subtle top border */
+  }
+  
+  .footer_content p {
+    margin: 0.5rem 0; /* A little space between lines */
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

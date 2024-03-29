@@ -21,9 +21,8 @@
 
   --mint-green: #48c9b0;
   --forest-green: #27ae60; 
-  --light-pink: #ffcad4; 
-  --med-pink: #de8292; 
-  --deep-pink: #ff69b4;
+  --pastel-pink: #ffcad4; 
+  --vivid-pink: #ff69b4;
 
 }
 
@@ -31,9 +30,7 @@ body {
   background-color: var(--lavender);
   color: var(--black-purple);
   font-family: 'DM Sans', sans-serif;
-
 }
-
 
 a {
   color: var(--deep-purple);

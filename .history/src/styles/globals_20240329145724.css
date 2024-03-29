@@ -31,8 +31,18 @@ body {
   background-color: var(--lavender);
   color: var(--black-purple);
   font-family: 'DM Sans', sans-serif;
-
+ 
 }
+
+/* styles/globals.css */
+
+/* Ensure the html and body tags are at least 100% of the viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* ...other global styles... */
 
 
 a {
