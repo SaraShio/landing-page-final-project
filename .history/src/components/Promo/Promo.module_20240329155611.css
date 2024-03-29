@@ -29,7 +29,7 @@
 }
 
 .promo_button {
-  padding: 10px 20px;
+  padding: 20px 20px;
   background-color: var(--black-purple);
   color: var(--white-purple);
   border: none;
@@ -45,3 +45,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+.blurb {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--black-purple);
+  left: 100%; 
+}

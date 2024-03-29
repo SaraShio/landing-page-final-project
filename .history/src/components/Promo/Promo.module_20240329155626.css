@@ -4,7 +4,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 600px;
-  height: 280px;
+  height: 300px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -45,3 +45,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+.blurb {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--black-purple);
+  left: 100%; 
+}

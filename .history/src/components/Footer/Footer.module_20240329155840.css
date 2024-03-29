@@ -21,6 +21,6 @@
   
   .emailLink:hover {
     text-decoration: underline; 
-    color: var(--mint-green);
+    color: var(--yellow);
   }
   

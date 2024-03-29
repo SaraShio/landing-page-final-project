@@ -6,37 +6,24 @@
   width: 600px;
   height: 280px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 80px ;
 }
 
 .promo_text {
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.4;
   transition: transform 1s ease-out;
-  color: var(--black-purple);
-}
-
-.promo_subtext {
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 1.4;
-  transition: transform 1s ease-out;
-  color: var(--light-purple);
 }
 
 .promo_button {
   padding: 10px 20px;
   background-color: var(--black-purple);
-  color: var(--white-purple);
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; 
-  width: 100%;
 }
 
 .promo_button:hover {
@@ -45,3 +32,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+.blurb {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--black-purple);
+  left: 100%; 
+}

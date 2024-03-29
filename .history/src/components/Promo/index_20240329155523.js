@@ -13,10 +13,10 @@ export function Promo() {
   return (
     <ParallaxProvider>
       <div className={styles.promo_container}>
-        <h1 ref={titleParallax.ref} className={styles.promo_text}>Contact me for a <b>FREE</b> consultation!</h1>
-        <p className={styles.promo_subtext}>The more time we have to collaborate, the better — so don't hesitate to reach out anytime!</p>
+        <h1 ref={titleParallax.ref} className={styles.promo_text}>Contact me for a <b><u>FREE</u></b> consultation!</h1>
+        <p className={styles.blurb} className={styles.promo_subtext}>The more time we have to collaborate, the better — so don't hesitate to reach out anytime!</p>
         <button ref={buttonParallax.ref} className={styles.promo_button} onClick={() => window.location = 'mailto:contact@sarashio.com'}>
-          Send Email
+          Send an Email
         </button>
       </div>
     </ParallaxProvider>

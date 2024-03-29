@@ -26,6 +26,7 @@
   line-height: 1.4;
   transition: transform 1s ease-out;
   color: var(--light-purple);
+  left: 100%; 
 }
 
 .promo_button {

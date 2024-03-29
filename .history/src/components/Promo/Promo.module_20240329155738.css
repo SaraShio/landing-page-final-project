@@ -26,6 +26,9 @@
   line-height: 1.4;
   transition: transform 1s ease-out;
   color: var(--light-purple);
+  font-size: 14px;
+  color: var(--black-purple);
+  left: 100%; 
 }
 
 .promo_button {

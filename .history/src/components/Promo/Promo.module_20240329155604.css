@@ -37,6 +37,7 @@
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; 
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .promo_button:hover {
@@ -45,3 +46,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+.blurb {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--black-purple);
+  left: 100%; 
+}
