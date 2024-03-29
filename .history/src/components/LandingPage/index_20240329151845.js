@@ -9,7 +9,7 @@ export function LandingPage({ imageSrc }) {
         translateZ="50"
         className="text-xl font-bold text-neutral-600 dark:text-white"
       >
-       January — March 2024
+       January 2024
       </CardItem>
       <CardItem
         as="p"

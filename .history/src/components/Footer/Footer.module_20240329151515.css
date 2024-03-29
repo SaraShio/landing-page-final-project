@@ -14,12 +14,4 @@
   }
   
 
-.emailLink {
-    color: var(--deep-purple); 
-    margin-top: 1rem;
-  }
-  
-  .emailLink:hover {
-    text-decoration: underline; 
-  }
   

@@ -15,11 +15,12 @@
   
 
 .emailLink {
-    color: var(--deep-purple); 
+    color: var(--light-purple); 
+
     margin-top: 1rem;
   }
   
   .emailLink:hover {
-    text-decoration: underline; 
+    text-decoration: underline; /* Optional: Adds an underline on hover for visual feedback */
   }
   

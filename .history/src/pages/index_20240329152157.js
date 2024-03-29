@@ -10,7 +10,6 @@ import { LandingPage } from "../components/LandingPage";
 import { Title } from "@/components/Title";
 import { NavBar } from "@/components/NavBar";
 import { Footer } from "@/components/Footer";
-import { Promo } from "@/components/Promo";
 
 
 
@@ -30,8 +29,9 @@ export default function Home() {
         <div className={styles.project_container}>
 
           <div>
+          <WeddingBrochure imageSrc="/images/wb.png" />
             <Moneyment imageSrc="/images/mm.png" />
-            <WeddingBrochure imageSrc="/images/wb.png" />
+
 
           </div>
           <div>
@@ -42,7 +42,6 @@ export default function Home() {
 
       </ParallaxProvider>
 
-      <Promo/>
       <Footer/>
     </main>
   );

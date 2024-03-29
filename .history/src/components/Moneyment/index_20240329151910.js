@@ -1,7 +1,7 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 
-export function WeddingBrochure({ imageSrc }) {
+export function Moneyment({ imageSrc }) {
   return (
     <CardContainer className="inter-var">
       <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
@@ -9,7 +9,7 @@ export function WeddingBrochure({ imageSrc }) {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-         July 2023
+          January — March 2023
         </CardItem>
         <CardItem
           as="p"
@@ -24,7 +24,7 @@ export function WeddingBrochure({ imageSrc }) {
           className="w-full mt-4"
         >
           <a
-            href="https://www.sarashio.com/p/portfolio-2024/02e8d634"
+            href="https://www.sarashio.com/p/portfolio-2024/027e9728"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,17 +39,17 @@ export function WeddingBrochure({ imageSrc }) {
         </CardItem>
         <div className="flex justify-between items-center mt-20">
           <a
-            href="https://www.sarashio.com/p/portfolio-2024/02e8d634"
+            href="https://www.sarashio.com/p/portfolio-2024/027e9728"
             target="_blank"
             rel="noopener noreferrer"
             translateZ={20}
             translateX={-40}
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white bg-transparent border border-solid border-current cursor-pointer"
           >
-            See the Wedding Brochure →
+            See the Project →
           </a>
           <a
-            href="https://www.sarashio.com/p/portfolio-2024/02e8d634"
+            href="https://www.sarashio.com/p/portfolio-2024/027e9728"
             target="_blank"
             rel="noopener noreferrer"
             translateZ={20}

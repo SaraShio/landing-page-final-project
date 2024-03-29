@@ -1,0 +1,30 @@
+.footer_container {
+    width: 100vw;
+    height: 100%;
+    padding: 1rem 0;
+    color: var(--black-purple); 
+    text-align: center;
+    border-top: 16px solid var(--light-purple); 
+  }
+  
+  .footer_content p {
+    margin: 0.5rem 0; 
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+
+/* Footer.module.css */
+
+/* ... other styles ... */
+
+.emailLink {
+    color: var(--light-purple); /* Use your own variable or a preferred color */
+    text-decoration: none; /* Optional: Removes the underline from the link */
+    margin-top: 1rem; /* Adds space above the link */
+  }
+  
+  .emailLink:hover {
+    text-decoration: underline; /* Optional: Adds an underline on hover for visual feedback */
+  }
+  

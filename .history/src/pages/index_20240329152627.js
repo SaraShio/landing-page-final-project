@@ -10,7 +10,6 @@ import { LandingPage } from "../components/LandingPage";
 import { Title } from "@/components/Title";
 import { NavBar } from "@/components/NavBar";
 import { Footer } from "@/components/Footer";
-import { Promo } from "@/components/Promo";
 
 
 
@@ -42,7 +41,7 @@ export default function Home() {
 
       </ParallaxProvider>
 
-      <Promo/>
+      <
       <Footer/>
     </main>
   );
