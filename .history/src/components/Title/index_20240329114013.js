@@ -1,0 +1,23 @@
+import styles from './Title.module.css'
+
+export function Title() {
+    return (
+        <>
+            <div className={styles.title_container}>
+                <div className={styles.title}>Hi, I'm Sara Shiojima!</div>
+                <div className={styles.sub_title}>UI + UX Designer and Frontend Web Developer</div>
+                <div className={styles.slogan}>Bridging Digital Design and Development.</div>
+
+                <div>
+                    <img
+                        src="./images/pic_of_me.jpeg"
+                        height="8000"
+                        width="8000"
+                        className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                        alt="thumbnail"
+                    />
+                </div>
+            </div>
+        </>
+    );
+}

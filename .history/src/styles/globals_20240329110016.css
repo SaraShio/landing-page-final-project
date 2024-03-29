@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
+
+
+:root {
+  /* Purple-ish Palette */
+  --color-primary: #7b4397; /* Deep purple */
+  --color-primary-light: #9f5f80; /* Lighter shade of purple */
+  --color-secondary: #D3CCE3; /* Lavender */
+  --color-accent: #E6E6E6; /* Light gray for contrasts */
+  --color-bg: #F9F9F9; /* Very light gray, almost white, for backgrounds */
+  --color-text: #333; /* Dark gray for texts */
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+a {
+  color: var(--color-primary);
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--color-primary-light);
+}
