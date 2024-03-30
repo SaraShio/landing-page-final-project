@@ -46,7 +46,7 @@ export function LandingPage({ imageSrc }) {
           translateX={-40}
           className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white bg-transparent border border-solid border-current cursor-pointer"
         >
-          Read the Case Study →
+          Read the Case study →
         </a>
         <a
           href="https://www.sarashio.com/p/portfolio-2024/02e8d79d"

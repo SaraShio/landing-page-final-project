@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+  --deep-purple: #7b4397; 
+  --light-purple: #9f5f80;
+  --lavender: #D3CCE3;
+  --grey-purple: #E6E6E6; 
+  --white-purple: #fbf7ff;
+  --black-purple: #333;
+  --dark-grey: #484848;
+
+
+  --yellow: #f1c40f;
+  --light-yellow: #fcf3cf;
+  --orange: #f39c12; 
+  --gold: #f7dc6f; 
+
+  --mint-green: #48c9b0;
+  --forest-green: #27ae60; 
+  --light-pink: #ffcad4; 
+  --med-pink: #de8292; 
+  --deep-pink: #ff69b4;
+
+}
+
+body {
+  background-color: var(--white-purple);
+  color: var(--black-purple);
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+
+a {
+  color: var(--deep-purple);
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--light-purple);
+}
