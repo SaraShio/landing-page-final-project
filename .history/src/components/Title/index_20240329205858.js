@@ -47,7 +47,7 @@ export function Title() {
                     <div className={styles.social_links}>
                         <a href='https://www.linkedin.com/in/sara-shiojima-ali/' target="_blank" rel="noopener noreferrer">Let's Connect on LinkedIn</a>
                         <a href='https://github.com/SaraShio' target="_blank" rel="noopener noreferrer">Check Out My GitHub</a>
-                        <a href='https://sarashio.com' target="_blank" rel="noopener noreferrer">See My Full Portfolio</a>
+                        <a href='https://github.com/SaraShio' target="_blank" rel="noopener noreferrer">See My Full Portfolio</a>
 
                     </div>
 
