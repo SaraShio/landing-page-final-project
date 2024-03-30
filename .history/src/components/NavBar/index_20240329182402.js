@@ -25,12 +25,12 @@ export function NavBar() {
                         Portfolio
 
                         <img
-                            src="./images/ham_menu.svg"
-                            alt="Menu"
-                            width="20px"
-                            height="20px"
-                            className={styles.logo_image}
-                        />
+                    src="./images/ham_menu.svg"
+                    alt="Menu"
+                    width="20px"
+                    height="20px"
+                    className={styles.logo_image}
+                />
                     </button>
                     {dropdownVisible && (
                         <div className={styles.dropdown_content}>

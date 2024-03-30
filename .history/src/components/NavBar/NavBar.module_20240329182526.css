@@ -38,7 +38,7 @@
 .drop_btn {
   display: flex; 
   align-items: center; 
-  justify-content: space-between; 
+  justify-content: space-between; /* Spread out the children */
   padding: 1rem 1.5rem;
   margin-right: 2rem;
   background-color: var(--light-purple);

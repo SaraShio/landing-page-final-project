@@ -56,13 +56,11 @@ export function Title() {
                     onMouseLeave={() => setSpin({ transform: 'rotateY(360deg)', opacity: 0.75 })}
                     style={spinProps}
                 >
-                    <div className={styles.image_container}>
                     <img
                         src="./images/pic_of_me.jpeg"
                         alt="Sara Shiojima-Ali"
                     />
                     <h1>Spin me!</h1>
-                    </div>
                 </animated.div>
             </animated.div>
         </>
